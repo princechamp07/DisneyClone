@@ -11,14 +11,14 @@ const Recommends=()=> {
             <div className="grid gap-6 grid-cols-2 md:grid-cols-4">
                
                 {
-                    movies && movies.map((movie,key)=>{
+                    movies && movies.map((movie, key) => (
 <div className="Card" key={key}>
 {movie.id}
 <Link to={'/detail/' + movie.id}>
     <img src={movie.cardImg} alt={movie.title} />
 </Link>
 </div>
-                    })
+                    ))
                 }
             </div>
         </div>
