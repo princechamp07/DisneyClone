@@ -14,7 +14,7 @@ const Recommends=()=> {
                     movies && movies.map((movie, key) => (
 <div className="Card" key={key}>
 {movie.id}
-<Link to={'/detail/' + movie.id}>
+<Link to={'/DisneyClone/detail/' + movie.id}>
     <img src={movie.cardImg} alt={movie.title} />
 </Link>
 </div>
