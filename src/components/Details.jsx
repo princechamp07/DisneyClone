@@ -34,7 +34,7 @@ const Details = () => {
             </div>
 
             <div className="ImageTitle">
-        <img src="" alt="" />
+        <img src={detailData.titleImg} alt={detailData.title} />
             </div>
 
         <div className="ContentMeta">
